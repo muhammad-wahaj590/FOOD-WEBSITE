@@ -1,0 +1,567 @@
+/* big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 13%;
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .row {
+        padding: 0 1%;
+    }
+
+    .main-nav {
+        margin-right: 60px;
+    }
+
+    .column {
+        margin-left: 130px;
+    }
+
+    .div-plan {
+        position: relative;
+        right: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1135px),
+(min-width:1024px) {
+    header {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .cities {
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .city {
+        margin-right: 40px;
+    }
+}
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    .row {
+        padding: 0 1.5%;
+    }
+
+    .logo {
+        height: 90px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .hero-text-box {
+        padding: 0 15%;
+    }
+
+    .long-copy {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .column {
+        width: 85%;
+        margin-left: 80px;
+    }
+
+    .col {
+        margin-left: 30px;
+    }
+
+    .step-section {
+        display: inline-block;
+    }
+
+    .right-step {
+        float: right;
+        margin: 20px 80px;
+    }
+
+    .app-screen {
+        width: 35%;
+        margin-left: 64%;
+    }
+
+    .btn-app img {
+        height: 40px;
+    }
+
+    .step-box div {
+        height: 30px;
+        width: 35px;
+        font-size: 105%;
+        margin-right: 25px;
+    }
+
+    .cities {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .city {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .city img {
+        height: 145px;
+        width: 190px;
+    }
+
+    .div-plan {
+        margin-left: 30px;
+    }
+
+    .sub-box {
+        width: 100%;
+        margin: 0 2%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .plan-box ul li {
+        padding: 5px 0;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .input-field .custom-select {
+        height: 18px;
+        margin-left: -11%;
+    }
+
+    .submit-button {
+        margin-left: 27%;
+    }
+}
+
+@media only screen and (max-width: 990px),
+(min-width:900) {
+    header {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .app-screen {
+        margin-left: 55%;
+    }
+
+    .btn-app img {
+        height: 38px;
+    }
+
+    .cities {
+        width: auto;
+        margin-top: 60px;
+    }
+
+    .city {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .city img {
+        height: 140px;
+        width: 180px;
+    }
+
+    .feature-city {
+        position: relative;
+        right: 45px;
+    }
+
+    .submit-button {
+        margin-left: 28%;
+    }
+
+    .input-field .custom-select {
+        height: 18px;
+        margin-left: -14%;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .city img {
+        height: 130px;
+        width: 170px;
+    }
+
+    .app-screen {
+        margin-left: 50%;
+    }
+
+    .submit-button {
+        margin-left: 29%;
+    }
+
+    header {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 11px;
+        overflow-x: hidden;
+    }
+
+    .city {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .city img {
+        height: 130px;
+        width: 165px;
+    }
+
+    .feature-city {
+        position: relative;
+        right: 10px;
+    }
+    .app-screen {
+        margin-left: 47%;
+    }
+    .input-field .custom-select{
+        width: 70%;
+    }
+}
+
+/* small phones to small tablets: from 481px to 767 */
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        font-size: 12px;
+    }
+
+    /* section{padding: 30px 0;} */
+    .hero-text-box {
+        padding: 0 15%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .main-nav{
+        float:left;
+        margin-top: 25px;
+        /* margin-left: 25px; */
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav{
+        margin-top: 10px;
+     }
+     
+    .sticky .main-nav li a:link,
+     .sticky .main-nav li a:visited{
+        padding: 10px 0;
+     }
+     .sticky .mobile-nav-icon i{color: #555;}
+     .sticky .mobile-nav-icon {margin-top: 10px;}
+
+    .column {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .col {
+        margin-left: 0px;
+        margin: 10px 0;
+    }
+
+    .app-screen {
+        width: 30%;
+        margin-left: 45%;
+    }
+
+    .btn-app img {
+        height: 35px;
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .step-box div {
+        height: 30px;
+        width: 30px;
+        font-size: 125%;
+    }
+
+    .cities {
+        flex-direction: column;
+    }
+
+    .city {
+        margin: 10px 130px;
+    }
+
+    .city h3 {
+        text-align: center;
+    }
+
+    .city img {
+        height: 160px;
+        width: 500px;
+    }
+
+    .feature-city {
+        position: relative;
+        left: 33%;
+    }
+
+    .customer-review {
+        flex-direction: column;
+    }
+
+    .div-plan {
+        flex-direction: column;
+    }
+
+    .sub-box {
+        margin: 15px 10px;
+        width: 95%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .input-field .custom-select {
+        height: 15px;
+        margin-left: -37%;
+    }
+
+    .input-field {
+        margin-bottom: 12px;
+        display: block;
+    }
+
+    .input-field label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .submit-button {
+        margin-left: -2%;
+    }
+
+    .input-field .custom-select {
+        position: relative;
+        width: 20%;
+        height: 20px;
+        margin-left: -0%;
+        margin-bottom: 27px;
+    }
+
+}
+
+@media only screen and (max-width: 701px),
+(min-width:600) {
+    .app-screen {
+        width: 29%;
+        margin-left: 36%;
+    }
+    .right-step{
+        margin-left: 10%;
+        
+     }
+
+    .cities {
+
+        width: auto;
+        margin-top: 60px;
+    }
+
+    .city {
+        margin-left: 200px;
+    }
+
+    .city h3 {
+        position: relative;
+        left: -20px;
+    }
+
+    .city img {
+        height: 140px;
+        width: 200px;
+    }
+
+    .feature-city {
+        position: relative;
+        left: 20px;
+    }
+
+    .btn:link,
+    .btn:visited {
+        padding: 6px 20px;
+    }
+
+    .btn-app img {
+        height: 30px;
+    }
+    .input-field .custom-select {
+        width: 100%;
+        
+    }
+}
+
+/* @media only screen and (max-width: 597px),
+(min-width:500px){
+    body {
+        font-size: 9px;
+        overflow-x: hidden;
+    }
+
+    .cities {
+        margin-top: 40px;
+    }
+
+    .city {
+        margin-left: 147px;
+    }
+
+    .btn-app img {
+        height: 30px;
+    }
+} */
+
+/* small phones: grom 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .footer-nav li,
+    .social-links li {
+        margin-right: 10px;
+    }
+
+    .footer-nav {
+        position: relative;
+        margin-left: -20px;
+    }
+
+    .step-box {
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .right-step{
+        float: right;
+        margin: 20px 125px;
+    }
+
+    .btn-app img {
+        height: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .city {
+        margin-left: 90px;
+    }
+
+    .city img{
+        height: 150px;
+        width: 300px;
+        }
+
+     .feature-city{
+            margin-left: 50px;
+        }
+        
+        .city h3{
+            margin-left: 30px;
+        }
+
+    .input-field .custom-select {
+        width: auto;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    .logo {
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .app-screen {
+        width: 35%;
+        margin-left: 32%;
+    }
+
+    .step-box div {
+        height: 20px;
+        width: 25px;
+        padding: 5px;
+        font-size: 115%;
+    }
+
+    .cities {
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .city {
+        position: relative;
+        right: 0%;
+    }
+
+    blockquote {
+        padding: 30px;
+        line-height: 125%;
+        margin-top: 0px;
+    }
+}
